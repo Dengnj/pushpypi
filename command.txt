@@ -1,0 +1,9 @@
+打包上传
+在cmd环境下非git环境:
+在setup.py的同级目录下运行以下命令。
+
+python setup.py sdist bdist_wheel
+然后运行
+
+twine upload dist/*
+注意要输入Pypi账号和密码。
